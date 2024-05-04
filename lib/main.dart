@@ -22,7 +22,7 @@ class _MyAppState extends State<MyApp> {
   Stream<Map<dynamic, dynamic>>? result;
 
   final String model = 'assets/chainsaw_detection.tflite';
-  final String label = 'assets/google_teach_machine_label.txt';
+  final String label = 'assets/labels.txt';
   final String inputType = 'rawAudio';
   final String audioDirectory = 'assets/chainsaw.wav';
   final int sampleRate = 44100;
@@ -81,7 +81,7 @@ class _MyAppState extends State<MyApp> {
         home: Scaffold(
             key: _scaffoldKey,
             appBar: AppBar(
-              title: const Text('Tflite-audio/speech'),
+              title: const Text('Chainsaw Detections'),
             ),
 
             ///Streambuilder for inference results
