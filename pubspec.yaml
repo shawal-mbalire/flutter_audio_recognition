@@ -16,6 +16,8 @@ dependencies:
     sdk: flutter
   tflite_audio: ^0.3.0
 
+  flutter_gen: any
+  tflite: ^1.1.2
 dev_dependencies:
   flutter_test:
     sdk: flutter
