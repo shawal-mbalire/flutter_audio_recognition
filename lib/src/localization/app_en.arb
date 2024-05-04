@@ -1,0 +1,6 @@
+{
+  "appTitle": "audio_recognition",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
